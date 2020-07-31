@@ -1,44 +1,51 @@
 body{
-    background-color: #F1E3D3;
+    background-color: #000000;
     margin: 0px;
 }
 
 header{
-    text-align: center;
-    background-color: #2D5D7B;
+    background-color: #141414;
     color: #FFFFFF;
-    font-size: 150%;
+    text-align: center;
+    padding: 1px;
+    font-size: 200%;
 }
 
 h1{
-    padding: 10px;
+    padding-top: 10px;
+    color: #FFFFFF
 }
 
 p{
-    color: #303633;
+    color: #FFFFFF;
 }
 
 nav{
-    background-color: #457EAC;
+    background-color: #303633;
     font-family: Arial;
     
     padding: 10px;
 }
 
 a{
-    text-decoration: none;
-    color:#FFFFFF;
+    color: #4FC3F7;
+}
+
+main{
+    padding: 1% 5%;
+    font-size: 125%;
 }
 
 h2{
     color:#FFFFFF;
-    background-color: rgba(69, 126, 172, .7);
+    background-color: #303633;
     padding: 10px;
 }
 
 
 footer{
     color: #FFFFFF;
-    background-color: #457EAC;
+    background-color: #303633;
     padding: 10px;
+    font-size: 100%;
 }
