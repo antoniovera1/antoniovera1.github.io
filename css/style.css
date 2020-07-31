@@ -1,11 +1,17 @@
 body{
     background-color: #F1E3D3;
+    margin: 0px;
 }
 
 header{
     text-align: center;
     background-color: #2D5D7B;
     color: #FFFFFF;
+    font-size: 150%;
+}
+
+h1{
+    padding: 10px;
 }
 
 p{
@@ -14,6 +20,9 @@ p{
 
 nav{
     background-color: #457EAC;
+    font-family: Arial;
+    
+    padding: 10px;
 }
 
 a{
@@ -23,10 +32,13 @@ a{
 
 h2{
     color:#FFFFFF;
-    background-color: #DA3E52;
+    background-color: rgba(69, 126, 172, .7);
+    padding: 10px;
 }
+
 
 footer{
     color: #FFFFFF;
     background-color: #457EAC;
+    padding: 10px;
 }
