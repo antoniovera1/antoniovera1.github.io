@@ -11,24 +11,52 @@ header{
     font-size: 200%;
 }
 
-h1{
+header h1{
     padding-top: 10px;
     color: #FFFFFF
 }
 
-p{
-    color: #FFFFFF;
-}
-
-nav{
+header nav{
     background-color: #303633;
+    color:#BFBFBF;
     font-family: Arial;
     
     padding: 10px;
 }
 
+header nav a{
+    color: #4FC3F7;
+    text-decoration: none;
+    margin: 0px;
+
+    padding: 10px;
+}
+
+header nav a.current{
+    background-color: #252B28;
+}
+
+header nav a:hover{
+    background-color: #404643;
+    color:#4FC3F7;
+}
+
 a{
     color: #4FC3F7;
+}
+
+a:hover{
+    color:#2F83AF;
+}
+
+a:focus{
+    border:solid 1px #FFFFFF;
+    border-radius: 3px;
+}
+
+a:active{ /* When clicked */
+    color: #0F586F;
+
 }
 
 main{
@@ -40,8 +68,12 @@ h2{
     color:#FFFFFF;
     background-color: #303633;
     padding: 10px;
+    border-radius: 5px;
 }
 
+p{
+    color: #FFFFFF;
+}
 
 footer{
     color: #FFFFFF;
