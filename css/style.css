@@ -70,7 +70,6 @@ a:active{ /* When clicked */
 
 main{
     padding: 1% 5%;
-    font-size: 100%;
 }
 
 h2{
@@ -88,6 +87,5 @@ footer{
     color: #FFFFFF;
     background-color: #303633;
     padding: 10px;
-    font-size: 90%;
     font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
