@@ -13,6 +13,12 @@ header img{
     margin: 20px 5px 20px 20px;
     display: inline-block;
     float: left;
+
+    transition: width .5s;
+}
+
+header img:hover{
+    width: 65px;
 }
 
 header h1{
@@ -39,6 +45,8 @@ header nav a{
     margin: 0px;
 
     padding: 10px;
+
+    transition: padding .5s;
 }
 
 header nav a.current{
@@ -48,6 +56,8 @@ header nav a.current{
 header nav a:hover{
     background-color: #404643;
     color:#4FC3F7;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 a{
@@ -70,6 +80,7 @@ a:active{ /* When clicked */
 
 main{
     padding: 1% 5%;
+    font-size: 100%;
 }
 
 h2{
@@ -87,5 +98,6 @@ footer{
     color: #FFFFFF;
     background-color: #303633;
     padding: 10px;
+    font-size: 14px;
     font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
