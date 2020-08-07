@@ -1,0 +1,118 @@
+body{
+    background-color: #000000;
+    margin: 0px;
+
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    background-color: #141414;
+    color: #FFFFFF;
+}
+
+header img{
+    width: 50px;
+    margin: 20px 5px 20px 20px;
+    display: inline-block;
+    float: left;
+
+    transition: width 1s, transform 1s;
+}
+
+header img:hover{
+    width: 55px;
+    transform: rotate(360deg);
+}
+
+header h1{
+    float: left;
+    margin:20px;
+    padding-top: 10px;
+
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 30px;
+}
+
+header nav{
+    clear:both;
+    background-color: #303633;
+    color:#BFBFBF;
+    font-family: Arial;
+    
+    padding: 10px;
+}
+
+header nav a{
+    color: #4FC3F7;
+    text-decoration: none;
+    margin: 0px;
+
+    padding: 10px;
+
+    transition: padding .5s;
+}
+
+header nav a.current{
+    background-color: #202623;
+}
+
+header nav a:hover{
+    background-color: #404643;
+    color:#4FC3F7;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a{
+    color: #4FC3F7;
+}
+
+a:hover{
+    color:#2F83AF;
+}
+
+a:focus{
+    border:solid 1px #FFFFFF;
+    border-radius: 3px;
+}
+
+a:active{ /* When clicked */
+    color: #0F586F;
+
+}
+
+main{
+    padding: 1% 5%;
+}
+
+section{
+    border-bottom: solid 1px #404040;
+}
+
+h2{
+    color:#FFFFFF;
+    padding: 10px;
+    border-bottom: solid 1px #FFFFFF;
+}
+
+h3{
+    color:#FFFFFF;
+    background-color: #303633;
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+p{
+    color: #B0B0B0;
+}
+
+footer{
+    color: #FFFFFF;
+    background-color: #303633;
+    padding: 10px;
+    font-size: 14px;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
