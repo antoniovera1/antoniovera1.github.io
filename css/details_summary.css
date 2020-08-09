@@ -1,0 +1,63 @@
+details[open] summary ~ * {
+  animation: open 0.3s ease-in-out;
+}
+
+@keyframes open {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+details{
+  margin: 10px 5%;
+  transition: margin .5s;
+}
+
+summary{
+    color: #FFFFFF;
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary {
+  color: #FFFFFF;
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px solid #333333;
+  position: relative;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  list-style: none;
+}
+
+details summary:after {
+  content: "+";
+  color: #4FC3F7;
+  position: absolute;
+  font-size: 2rem;
+  line-height: 0;
+  margin-top: 0.75rem;
+  right: 0;
+  font-weight: 200;
+  transform-origin: center;
+  transition: 200ms linear;
+}
+
+details[open] summary:after {
+  transform: rotate(45deg);
+  font-size: 2.25rem;
+}
+
+details summary:hover{
+  color: #B0B0B0;
+}
+
+details[open]{
+  margin:10px 1%;
+}

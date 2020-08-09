@@ -2,6 +2,7 @@ body{
     background-color: #000000;
     margin: 0px;
 
+    font-size: 16px;
     font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -91,21 +92,24 @@ section{
 }
 
 h2{
+    font-size: 1.5rem;
     color:#FFFFFF;
     padding: 10px;
     border-bottom: solid 1px #FFFFFF;
 }
 
 h3{
+    font-size: 1.17rem;
     color:#FFFFFF;
     background-color: #303633;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     border-bottom-right-radius: 0px;
     border-bottom-left-radius: 0px;
 }
 
 p{
+    font-size: 1rem;
     color: #B0B0B0;
 }
 
