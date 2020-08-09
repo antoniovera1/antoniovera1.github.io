@@ -1,5 +1,9 @@
-.pdf_file, .pdf_file embed{
+.pdf_file, .pdf_file object{
     width:80%; 
     height:1000px;
     margin: 0 auto;
+}
+
+.pdf_file object{
+    text-align: center;
 }
