@@ -1,9 +1,31 @@
-.pdf_file, .pdf_file object{
-    width:80%; 
-    height:1000px;
+.curriculum{
+    width: 750px;
+    margin: 20px auto 40px auto;
+    color: #FFFFFF;
+}
+
+.curriculum img{
+    width: 750px;
     margin: 0 auto;
 }
 
-.pdf_file object{
-    text-align: center;
+.curriculum .download{
+	display: inline-block;
+	float: right;
+
+	margin: 10px;
+	padding: 10px;
+	border: solid 1px #FFFFFF;
+	border-radius: 5px;
+
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+
+	transition: .25s;
+}
+
+.curriculum .download:hover{
+	background-color: #FFFFFF;
+	color: #000000;
 }

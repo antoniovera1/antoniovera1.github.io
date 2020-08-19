@@ -1,3 +1,4 @@
+/* Default style */
 body{
     background-color: #000000;
     margin: 0px;
@@ -6,6 +7,7 @@ body{
     font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+/* Header */
 header{
     background-color: #141414;
     color: #FFFFFF;
@@ -73,9 +75,59 @@ header nav a.current{
 header nav a:hover{
     background-color: #404643;
     color:#4FC3F7;
-    width: 120px;
+    width: 110px;
 }
 
+
+/* Footer */
+footer{
+    color: #FFFFFF;
+    background-color: #0E0E0E;
+    padding: 30px 5%;
+    font-size: 14px;
+    font-family: Graphik, "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer table{
+    text-align: left;
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+}
+
+footer table th, footer table td{
+    width: 200px;
+}
+
+footer table th{
+    font-size: 15px;
+    padding: 5px 3px; 
+}
+
+footer table td{
+    color: #999999;
+    font-size: 13px;
+    padding: 3px;
+}
+
+footer > .info{
+    border-bottom: solid 1px #666666;
+}
+
+footer > .info div{
+    height: 120px 
+}
+
+footer span{
+    color: #999999;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+/* Misselanius */
 a{
     color: #4FC3F7;
 }
@@ -94,35 +146,30 @@ main{
 }
 
 section{
-    border-bottom: solid 1px #404040;
+    border-bottom: solid 1px #606060;
+    margin-bottom: 40px;
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 24px;
     color:#FFFFFF;
     padding: 10px;
     border-bottom: solid 1px #FFFFFF;
 }
 
 h3{
-    font-size: 1.17rem;
+    font-size: 19px;
     color:#FFFFFF;
     background-color: #303633;
     padding: 10px;
-    border-radius: 4px;
-    border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 0px;
+    border-radius: 4px 4px 0 0;
 }
 
 p{
-    font-size: 1rem;
-    color: #B0B0B0;
+    font-size: 16px;
+    color: #999999;
 }
 
-footer{
-    color: #FFFFFF;
-    background-color: #303633;
-    padding: 10px;
-    font-size: 14px;
-    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.fab{
+    color: #00BF71;
 }

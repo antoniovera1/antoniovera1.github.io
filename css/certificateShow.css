@@ -49,9 +49,11 @@
 	font-size: 20px;
 	font-weight: bolder;
 
-	visibility: hidden;
+	opacity: 0;
+
+	transition: .25s;
 }
 
-.certificate:hover .foreground{
-	visibility: visible;
+.certificate .foreground:hover{
+	opacity: 1;
 }
