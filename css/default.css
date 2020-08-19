@@ -41,17 +41,29 @@ header nav{
     color:#BFBFBF;
     font-family: Arial;
     
-    padding: 10px;
+    height: 40px;
 }
 
 header nav a{
     color: #4FC3F7;
     text-decoration: none;
-    margin: 0px;
+    text-align: center;
 
-    padding: 10px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    line-height: 40px;
 
-    transition: padding .5s;
+    height: 40px;
+    width: 100px;
+
+    border-right: solid 1px #404643;
+
+    transition: width .5s;
+}
+
+header nav a:last-child{
+    border-right: 0;
 }
 
 header nav a.current{
@@ -61,8 +73,7 @@ header nav a.current{
 header nav a:hover{
     background-color: #404643;
     color:#4FC3F7;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 120px;
 }
 
 a{
@@ -71,11 +82,6 @@ a{
 
 a:hover{
     color:#2F83AF;
-}
-
-a:focus{
-    border:solid 1px #FFFFFF;
-    border-radius: 3px;
 }
 
 a:active{ /* When clicked */
