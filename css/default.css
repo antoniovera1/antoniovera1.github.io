@@ -76,6 +76,7 @@ header nav a:hover{
     background-color: #404643;
     color:#4FC3F7;
     width: 110px;
+    text-decoration: none;
 }
 
 
@@ -104,6 +105,14 @@ footer table th{
     padding: 5px 3px; 
 }
 
+footer table th a{
+    color: #FFFFFF;
+}
+
+footer table th a:hover{
+    color: #FFFFFF;
+}
+
 footer table td{
     color: #999999;
     font-size: 13px;
@@ -112,28 +121,41 @@ footer table td{
 
 footer > .info{
     border-bottom: solid 1px #666666;
+    margin-bottom: 20px;
 }
 
 footer > .info div{
     height: 120px 
 }
 
+footer > .info div:last-child{
+    height: 200px 
+}
+
 footer span{
     color: #999999;
+    font-size: 12px;
 }
 
 footer a{
+    color: #999999;
     text-decoration: none;
+}
+
+footer a:hover{
+    color: #999999;
+    text-decoration: underline;
 }
 
 
 /* Misselanius */
 a{
     color: #4FC3F7;
+    text-decoration: none;
 }
 
 a:hover{
-    color:#2F83AF;
+    text-decoration: underline;
 }
 
 a:active{ /* When clicked */
@@ -165,9 +187,15 @@ h3{
     border-radius: 4px 4px 0 0;
 }
 
+h4{
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
 p{
-    font-size: 16px;
-    color: #999999;
+    font-size: 14px;
+    color: #ABABAB;
+    margin: 10px 0 30px 0;
 }
 
 .fab{
