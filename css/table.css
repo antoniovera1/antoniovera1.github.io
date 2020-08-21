@@ -1,0 +1,43 @@
+main table{
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+main table th{
+    color: #FFFFFF;
+}
+
+main table td{
+    font-size: 15px;
+    color: #ABABAB;
+}
+
+main table td, table th{
+    padding: 10px;
+}
+
+main table tr{
+    border-bottom: solid 1px #222222;
+}
+
+main table tr:last-child{
+    border-bottom: none;
+}
+
+main table tr:nth-child(odd){
+    background-color: #151515;
+}
+
+main table td:first-child{
+    border-right: solid 1px #222222;
+    color: #FFFFFF;
+}
+
+main table td:last-child{
+    color: #ABABAB;
+    border-right: none;
+}
+
+table a{
+    color: inherit;
+}

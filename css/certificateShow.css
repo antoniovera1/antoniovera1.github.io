@@ -6,9 +6,6 @@
 	width: 430px;
 	height: 430px;
 
-	background-color: #1b1f1d;
-	border-radius: 10px;
-
 	display: inline-block;
 	margin: 10px;
 }
@@ -27,10 +24,17 @@
 	color: #FFFFFF;
 }
 
+.certificate figcaption .title{
+	display: inline-block;
+	width: 370px;
+}
+
 .certificate figcaption .description{
 	color: #999999;
 	font-weight: normal;
 	font-size: 13px;
+	opacity: 0;
+	transition: .5s;
 }
 
 .certificate .foreground{
@@ -54,6 +58,30 @@
 	transition: .25s;
 }
 
-.certificate .foreground:hover{
+.certificate .foreground:hover, .certificate .foreground:focus{
+	opacity: 1;
+}
+
+.certificate .background{
+	width: 430px;
+	height: 430px;
+
+	background-color: #1b1f1d;
+	border-radius: 10px;
+
+	display: inline-block;
+	position: absolute;
+
+
+	transform: scale(.9,.9) translate(-5%,-5%);
+	transition: .25s;
+	z-index: -1;
+}
+
+.certificate:hover .background{
+	transform: none;
+}
+
+.certificate:hover .description{
 	opacity: 1;
 }

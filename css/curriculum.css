@@ -1,12 +1,13 @@
 .curriculum{
-    width: 750px;
+    width: 800px;
+    height: 1060px;
     margin: 20px auto 40px auto;
     color: #FFFFFF;
 }
 
 .curriculum img{
     width: 750px;
-    margin: 0 auto;
+    margin: 0 25px;
 }
 
 .curriculum .download{
@@ -28,4 +29,23 @@
 .curriculum .download:hover{
 	background-color: #FFFFFF;
 	color: #000000;
+}
+
+.curriculum .background{
+    width: 800px;
+    height: 1060px;
+
+	background-color: #1b1f1d;
+	border-radius: 10px;
+
+	display: inline-block;
+	position: absolute;
+
+	transform: scale(.9,.9) translate(-5%,5%);
+	transition: .25s;
+	z-index: -1;
+}
+
+.curriculum:hover .background{
+	transform: none;
 }
