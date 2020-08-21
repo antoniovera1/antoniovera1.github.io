@@ -61,7 +61,7 @@ header nav a{
 
     border-right: solid 1px #404643;
 
-    transition: width .5s;
+    transition: width .25s;
 }
 
 header nav a:last-child{
@@ -70,12 +70,13 @@ header nav a:last-child{
 
 header nav a.current{
     background-color: #202623;
+    border-bottom: solid 1px #FF1744;
 }
 
-header nav a:hover{
+header nav a:hover, header nav a:focus{
     background-color: #404643;
     color:#4FC3F7;
-    width: 110px;
+    width: 105px;
     text-decoration: none;
 }
 
@@ -109,7 +110,7 @@ footer table th a{
     color: #FFFFFF;
 }
 
-footer table th a:hover{
+footer table th a:hover, footer table th a:focus{
     color: #FFFFFF;
 }
 
@@ -142,7 +143,7 @@ footer a{
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover, footer a:focus{
     color: #999999;
     text-decoration: underline;
 }
