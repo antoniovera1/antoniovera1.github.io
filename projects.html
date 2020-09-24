@@ -5,6 +5,7 @@
         <title>Projects</title>
         <link rel="icon" type="image/png" href="imgs/logo_grey_thumbnail.png">
         <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/projects_show.css">
         <script src="https://kit.fontawesome.com/f4ae9d07a5.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -23,47 +24,247 @@
         </header>
         <main>
             <h2>Projects</h2>
+            <!-- Python -->
             <section id="python">
                 <h3>Python <i class="fab fa-python"></i></h3>
-                <div>
-                    <h4>Master Mind Game (06/2020)</h4>
-                    <p>A game of Master Mind programmed in python using the "Turtle" library. Consists of guessing the color of 4 marbles.</p>
-                </div>
-                <div>
-                    <h4>Black Jack Game (07/2020)</h4>
-                    <p>A game of black jack programmed in python with object oriented programming in mind. In it I used the user interface library PQT5.</p>
-                </div>
-                <div>
-                    <h4>Log In System (07/2020)</h4>
-                    <p>A log in system with a Json database in which the user can make a new account, with an unused user name, or log in with a user name and password saved in the database.</p>
-                </div>
-                <div>
-                    <h4>Tic Tac Toe Game (07/2020)</h4>
-                    <p></p>
-                </div>
-            </section>
-            <section id="nns">
-                <h3>Neural Networks <i class="fab fa-python"></i></h3>
+                <!-- Some projects -->
+                <section class="project_list">
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Jul 2020, PyQt5 Project</p>
+                            <h2>Black Jack Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A black jack game where you play against a computer wich is the dealer. You can play with a maximum of 7 players, and a minimum of one player. Using a user interface made with the PyQt5 library.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2020, PyQt5 Project</p>
+                            <h2>Chess Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A completly integraded chess game, wich calculates and displays all the possible moves for both players, in each turn. Determines if the move is valid based on the piece type and if the king is safe after the move; also has every special move in chess. Can also tell when a player is in checkmate, or if the game is a draw. Using a GUI made with the PyQt5 library. <a href="#">See my project in github.</a></p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Aug 2020, PyQt5 Project</p>
+                            <h2>Connect Four Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A connect four game. 2 players play against each other. Using a user interface made with the PyQt5 library.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2020</p>
+                            <h2>Hanoi</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A solving algorithm for the famous Hanoi puzzle where you have to move 3 rings from the first position to the last, but you are not allowed to move more than one ring at a time, or put a bigger ring on top of a smaller one.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Jul 2020, PyQt5 Project</p>
+                            <h2>Mastermind Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A mastermind game where you have to guess the color of 4 hidden marbles by guessing and getting hints back from the computer. Using the Turtle library to show the marbles.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Jul 2020, PyQt5 Project</p>
+                            <h2>Sign In Project</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A user system where you can sign up a new account with any password, sign into the account or delete your account. And the datebase is saved into a Json file, where the password is encrypted using Fernet encryption. Using a user interface made with the PyQt5 library.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Jul 2020</p>
+                            <h2>Simon Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A game of simon, you can play with many players or alone. where you have to follow a pattern shown, and it counts the number of times you guesses correctly.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Aug 2020</p>
+                            <h2>Tic Tac Toe Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A game of tic tac toe. You can play against another player in the same window or agaist a bot wich chooses a place between that doesn't let you win the game, or a random place if you are not close to completing a line.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2020</p>
+                            <h2>Wilson Game</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A tamagochi-like game, where you have to keep wilson alive.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+                </section>
+            <section id="machine_learning">
+                <!-- Machine learning -->
+                <h3>Machine Learning <i class="fab fa-python"></i></h3>
+                <!-- Some projects -->
+                <section class="project_list">
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Jul 2020, PyQt5 Project</p>
+                            <h2>CNNs</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Made and trained many CNNs.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                </section>
             </section>
             <section id="html">
                 <h3>Web Design <i class="fab fa-html5"></i> <i class="fab fa-css3"></i> <i class="fab fa-js-square"></i></h3>
+                <!-- Some projects -->
+                <section class="project_list">
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Aug 2020, HTML, CSS, JS</p>
+                            <h2>This page</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">I designed and developed every single thing in this page, from scratch.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                </section>
             </section>
             <section id="linux">
+                <!-- Linux -->
                 <h3>Linux <i class="fab fa-linux"></i></h3>
-                <div>
-                    <h4>Install and test various Linux based operating systems (09/2018 – Present)</h4>
-                    <p>Gentoo, Ubuntu, Archlinux, and Devian.</p>
-                </div>
+                <!-- Some projects -->
+                <section class="project_list">
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2018</p>
+                            <h2>Ubuntu</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Installed and commonly use the Ubuntu distribution of the linux operating system.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                     <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2018</p>
+                            <h2>Gentoo</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Installed from scratch the Gentoo distribution on 3 different computers and tested it against other distributions.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                     <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2018</p>
+                            <h2>Archlinux</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Installed and tested the Archlinux distribution of the linux operating system.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                     <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Sep 2018</p>
+                            <h2>Devian</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Installed and tested the Devian distribution of the linux operating system.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                </section>
             </section>
             <section id="other">
+                <!-- Other -->
                 <h3>Other</h3>
-                <div>
-                    <h4>Automatic curtain controller integrated with amazon alexa (02/2019 – 05/2019) </h4>
-                    <p>A team and I integrated a Raspberry, and an ESP8266 arduino module to make a kit capable of controlling the opening of any curtains.</p>
-                </div>
-                <div>
-                    <h4>Topographical reconstruction of a space using OpenCV and a kinect camera (10/2018 –11/2018)</h4><p>Me and a team made a couple of scripts which, when run together, could make a 3D image of any space and display it. </p>
-                </div>
+                <!-- Some projects -->
+                <section class="project_list">
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Feb 2019, Alexa Skills, Python</p>
+                            <h2>Automatic curtain controller integrated with amazon alexa</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">A team and I integrated a Raspberry, and an ESP8266 arduino module to make a kit capable of controlling the opening of any curtains. Integrading python code from the alexa skill module, arduino code to move motors.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+                    <!-- A Project -->
+                    <article class="project">
+                        <!-- Header inside the project -->
+                        <header class="project_header">
+                            <p>Oct 2018, C++</p>
+                            <h2>Topographical reconstruction of a space using OpenCV and a kinect camera</h2>
+                        </header>
+                        <!-- More content in the project -->
+                        <p class="project_description">Me and a team made a couple of scripts in c++ using the numpy, and the OpenCV libraries, which, when run together, could recreate a 3D image of any place and display it in a point cloud.</p>
+                        <figcaption class="logo"><i class="fab fa-python"></i></figcaption>
+                    </article>
+
+
+                </section>
             </section>
         </main>
         <footer>
@@ -77,7 +278,7 @@
                     <table>
                         <tr><th><a href="curriculum.html">Curriculum Vitae</a></th></tr>
                         <tr><td><a href="certificates.html#python">Python Certificates</a></td></tr>
-                        <tr><td><a href="certificates.html#nns">Neural Networks</a></td></tr>
+                        <tr><td><a href="certificates.html#machine_learning">Machine Learning</a></td></tr>
                         <tr><td><a href="certificates.html#html">Web Design Certificates</a></td></tr>
                     </table>
                 </div>
@@ -85,7 +286,7 @@
                     <table>
                         <tr><th><a href="projects.html">Projects</a></th></tr>
                         <tr><td><a href="projects.html#python">Python Projects</a></td></tr>
-                        <tr><td><a href="projects.html#nns">Neural Networks</a></td></tr>
+                        <tr><td><a href="projects.html#machine_learning">Machine Learning</a></td></tr>
                         <tr><td><a href="projects.html#html">Web Design</a></td></tr>
                         <tr><td><a href="projects.html#linux">Linux Projects</a></td></tr>
                         <tr><td><a href="projects.html#other">Other Projects</a></td></tr>

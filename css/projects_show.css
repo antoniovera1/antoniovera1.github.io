@@ -1,0 +1,129 @@
+a{
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration: underline;
+}
+
+a:active{ /* When clicked */
+    color: #0F586F;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+/* Copy from here for the web page */
+
+/* The container of projects */
+.project_list{
+    display: flex;
+    padding: 3rem;
+
+    overflow-x: scroll;
+    background-color: #101010;
+}
+
+/* How each project looks */
+.project_list .project{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+
+    height: 380px;
+    width: 300px;
+    min-width: 250px;
+
+    padding: 1.5rem;
+
+    border-radius: 16px;
+    background-color: #202020;
+    box-shadow: -1rem 0 3rem #000000;
+
+    transition: .2s;
+}
+
+/* Style the scrollbar */
+.project_list::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+}
+
+.project_list::-webkit-scrollbar-thumb{
+    background-color: #B0B0B0;
+    border-radius: 10px;
+}
+
+.project_list::-webkit-scrollbar-thumb:hover{
+    background-color: #909090;
+    border-radius: 10px;
+}
+
+.project_list::-webkit-scrollbar-thumb:active{
+    background-color: #767676;
+    border-radius: 10px;
+}
+
+.project_list::-webkit-scrollbar-track{
+    background-color: #404040;
+    border-radius: 10px;
+}
+
+/* Move the projects and animate them */
+.project_list .project:hover{
+    transform: translateY(-1rem);
+}
+
+.project_list .project:hover~.project{
+    transform: translateX(140px);
+}
+
+.project_list .project:not(:first-child){
+    margin-left: -130px
+}
+
+/* Project header */
+.project .project_header{
+    font-weight: bold;
+    background-color: #1f1f1f;
+}
+
+.project .project_header p{
+    color: #909090;
+    margin: 0;
+}
+
+.project .project_header h2{
+    color: #DCBC1E;
+    background: linear-gradient(90deg, #DCBC1E, #DC1D13);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    border: 0;
+    padding:0;
+}
+
+/* Project data */
+.project .project_description{
+    margin-top: 1rem;
+    font-size: 16px;
+}
+
+/* Project logo */
+.project .logo{
+    margin-top: auto;
+}
+
+.project .logo i{
+    font-size: 40px;
+    color: #DCBC1E;
+}
