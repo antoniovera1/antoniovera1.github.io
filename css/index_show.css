@@ -42,6 +42,8 @@ body{
     border: solid 5px #141414;
 
     background-color: #202020;
+
+    transition: .15s;
 }
 
 .index_show_list .index_show:not(:first-child){
