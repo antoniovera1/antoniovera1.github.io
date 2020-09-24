@@ -1,0 +1,106 @@
+a{
+    color: #4FC3F7;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    text-decoration: underline;
+}
+
+a:active{ /* When clicked */
+    color: #0F586F;
+
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family:"Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Style the list of index shows */
+.index_show_list{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+
+    overflow-x: auto;
+}
+
+/* Style each index show */
+.index_show_list .index_show{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 170px;
+    min-width: 170px;
+    height: 170px;
+    border-radius: 2rem;
+    border: solid 5px #141414;
+
+    background-color: #202020;
+}
+
+.index_show_list .index_show:not(:first-child){
+    margin-left: 10px;
+}
+
+.index_show:hover, .index_show:focus{
+    transform: translateY(-1rem);
+}
+
+/* Style the scrollbar */
+.index_show_list::-webkit-scrollbar{
+    width: 7px;
+    height: 7px;
+}
+
+.index_show_list::-webkit-scrollbar-thumb{
+    background-color: #B0B0B0;
+    border-radius: 10px;
+}
+
+.index_show_list::-webkit-scrollbar-thumb:hover{
+    background-color: #909090;
+    border-radius: 10px;
+}
+
+.index_show_list::-webkit-scrollbar-thumb:active{
+    background-color: #767676;
+    border-radius: 10px;
+}
+
+.index_show_list::-webkit-scrollbar-track{
+    background-color: #404040;
+    border-radius: 10px;
+}
+
+/* Style the elements inside */
+
+.index_show, .index_show:hover, .index_show:focus{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.index_show i{
+    font-size: 85px;
+    margin-top: 30px;
+
+    color: #DCBC1E;
+    background: linear-gradient(90deg, #edf111, #dc6613);
+    text-shadow: none;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.index_show p{
+    color: #FFFFFF;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: bolder;
+}
